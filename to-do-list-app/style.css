@@ -206,7 +206,7 @@ form button:hover,
   margin-right: auto;
   padding: 10px 20px;
   width: max-content;
-  height: 75vh;
+  height: 65vh;
   min-height: 300px;
   max-height: 80vh;
   overflow: auto;
@@ -345,6 +345,10 @@ footer h2 {
   form#input-form input {
     width: 50vw;
     min-width: 300px;
+  }
+  
+  #task-list {
+    height: 75vh;
   }
   
   #task-list li {

@@ -338,10 +338,15 @@ footer h2 {
 }
 
 @media (max-width: 1000px) {
+  body {
+    background-size: contain;
+  }
+  
   form#input-form input {
     width: 50vw;
     min-width: 300px;
   }
+  
   #task-list li {
     width: 85vw;
   }
